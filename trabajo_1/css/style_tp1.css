@@ -3,7 +3,10 @@
     padding: 0%; margin: 0%; box-sizing: border-box;
 }
 :root{
-
+    --staat-font:  "M PLUS 1p", sans-serif;
+    --caveat-font: "Caveat", cursive;
+    --fondo-degradado: linear-gradient(90deg, #7692FF 0%,#3D518C 70%);
+    --negro90: rgba(0, 0, 0, 0.896);
 }
 .m-plus {
     font-family: "M PLUS 1p", sans-serif;
@@ -16,4 +19,47 @@
     font-weight: 400;
     font-style: normal;
   }  
-  
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: var(--fondo-degradado);
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta{
+    height: 550px;
+    width: 300px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 20px 20px 15px 15px #091540;
+
+    & .encabezado{
+        border-radius: 10px 10px 0 0;
+        background-color: #3B4BE3;
+        height: 60px;
+        width: 100%;
+        
+    }
+
+    & .producto{
+        height: 240px;
+        width: 100%;
+        background-color: #C4D0FF;
+    }
+    & .desc_prod{
+        height: 200px;
+        width: 100%;
+        background-color: #8BC2F8 ;
+    }
+    & .botonera{
+        border-radius: 0 0 10px 10px;
+        height:50px;
+        width: 100%;
+        background-color: #3B4BE3;
+    }
+}

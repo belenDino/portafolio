@@ -61,5 +61,11 @@ body{
         height:50px;
         width: 100%;
         background-color: #3B4BE3;
+        align-items: center;
+        align-content: center;
+        align-self: center;
     }
+}
+.colores{
+  
 }

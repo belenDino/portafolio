@@ -1,0 +1,191 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --precio-fondo: "Viga", sans-serif;
+  --precio-talle: "Manrope", sans-serif;
+  --fondo-degradado: linear-gradient(90deg, lightblue, black);
+  --negro90: rgb(33, 33, 33);
+  --font-descripcion: "PT Serif", serif;}
+
+
+.viga-regular {
+  font-family: "Viga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manrope-uniquifier {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+body {
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+
+  height: 97%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+
+
+
+}
+
+.tarjeta {
+  height: 100%;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+  border: solid 5px black;
+   
+  & .titulo {
+
+    height:25%;
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+    background-color: black;
+   background-image: url('fondo1.png');
+   position: relative;
+   background-size: cover;
+ 
+  }
+
+  & .borde{
+    height:1%;
+    width: 300px;
+    background-color: rgb(96, 119, 139);
+
+
+}
+.persona{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+ 
+    right: 28%;
+    left: 35%;
+    top: 45%;
+    background-image: url('th.png');
+    background-size: cover;
+}
+    
+  }
+
+
+  & .descripcion {
+
+    height: 64%;
+    width: 300px;
+    font-family: var(--precio-talle);
+    line-height: 21.5px;
+    font-size: 15px;
+    color: black;
+    background-color: #454545;
+
+    & .texto{
+        align-content: center;
+        height: 40%;
+        width: 300px;
+        background-color: #454545;
+       
+    
+
+        & .t{
+            line-height:1.2;
+        margin-left: 10%;
+          margin-right: 10%;
+           text-align:left;
+          font-size: x-small;
+           color: aliceblue;
+        
+           
+        }
+    }
+    & .datos{
+        margin-top: 10%;
+        height: 50%;
+        width: 300px;
+        background-color: #454545;
+        padding: 10%;
+        display: flex;
+        justify-content: space-between;
+
+        & .d{
+            
+            text-align: center;
+            display: flex;
+            color: aliceblue;
+        }
+    }
+
+  }
+
+
+  & .foot {
+    height: 15%;
+    border-radius: 0 0 20px 20px;
+    width: 300px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    background-image: url('fondo1.png');
+    background-size: cover;
+
+
+
+  }
+
+
+  
+  .button {
+    --bg: #000;
+    --hover-bg: #bfe4fd;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  
+.vacio{
+    width: 300px;
+    height: 20%;
+}
+

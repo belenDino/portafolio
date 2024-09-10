@@ -1,0 +1,82 @@
+[
+    {
+      "id": "1",
+      "nombre": "Paracetamol",
+      "descripcion": "Analgesico y antipiretico",
+      "horario": "Cada 8 horas",
+      "dosisPorDia": "3",
+      "duracion": "2 meses"
+    },
+    {
+      "id": "2",
+      "nombre": "Ibuprofeno",
+      "descripcion": "Antiinflamatorio no esteroideo",
+      "horario": "Cada 8 horas",
+      "dosisPorDia": "3",
+      "duracion": "2 meses"
+    },
+    {
+      "id": "3",
+      "nombre": "Amoxicilina",
+      "descripcion": "Antibiotico penicilina",
+      "horario": "Cada 12 horas",
+      "dosisPorDia": "2",
+      "duracion": "1 mes"
+    },
+    {
+      "id": "4",
+      "nombre": "Losartano",
+      "descripcion": "Antihipertensivo, bloqueador de los receptores de angiotensina II",
+      "horario": "Una vez al dia",
+      "dosisPorDia": "1",
+      "duracion": "6 meses"
+    },
+    {
+      "id": "5",
+      "nombre": "Metformina",
+      "descripcion": "Antidiabetico oral, disminuye la produccion de glucosa en el higado",
+      "horario": "Cada 12 horas",
+      "dosisPorDia": "2",
+      "duracion": "6 meses"
+    },
+    {
+      "id": "6",
+      "nombre": "Atorvastatina",
+      "descripcion": "Estatinas, reducen el colesterol LDL y los trigliceridos",
+      "horario": "Una vez al dia",
+      "dosisPorDia": "1",
+      "duracion": "6 meses"
+    },
+    {
+      "id": "7",
+      "nombre": "Omeprazol",
+      "descripcion": "Inhibidor de la bomba de protones, reduce la produccion de acido en el estomago",
+      "horario": "Una vez al dia antes de las comidas",
+      "dosisPorDia": "1",
+      "duracion": "3 meses"
+    },
+    {
+      "id": "8",
+      "nombre": "Sertralina",
+      "descripcion": "Inhibidor selectivo de la recaptacion de serotonina, antidepresivo",
+      "horario": "Una vez al dia",
+      "dosisPorDia": "1",
+      "duracion": "3 meses"
+    },
+    {
+      "id": "9",
+      "nombre": "Clonazepam",
+      "descripcion": "Benzodiazepinas, ansiolítico y anticonvulsivante",
+      "horario": "Cada 12 horas",
+      "dosisPorDia": "2",
+      "duracion": "3 meses"
+    },
+    {
+      "id": "10",
+      "nombre": "Levotiroxina",
+      "descripcion": "Hormona tiroidea, trata el hipotiroidismo",
+      "horario": "Una vez al dia en ayunas",
+      "dosisPorDia": "1",
+      "duracion": "indefinido"
+    }
+  ]
